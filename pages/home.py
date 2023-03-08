@@ -1,9 +1,5 @@
 import dash
-from dash import Dash, html, dcc
-import plotly.express as px
-import pandas as pd
 import dash_bootstrap_components as dbc
-import os
 
 dash.register_page(__name__, path="/")
 
